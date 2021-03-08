@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
-    --primary-color: #02203C;
-    --secondary-color: #626EE3;
-    --dark-color: #15314B;
-    --accent-color: #F44292;
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
     --light-color: #f4f4f4;
-    --success-color: #5CB85C;
-    --error-color: #D9534F;
-}
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+  }
 
 * {
     box-sizing: border-box;
