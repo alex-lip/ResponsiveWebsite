@@ -13,6 +13,7 @@ https://www.youtube.com/watch?v=p0bGHP-PXD4
 - CSS Flexbox
 - Media Queries
 - Deployed to Netlify from GitHub with working form
+- Link: https://alex-responsive-website-template.netlify.app/
 
 ## Issues 
 
