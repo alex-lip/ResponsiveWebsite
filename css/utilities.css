@@ -6,6 +6,15 @@
     padding: 0 40px;
 }
 
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 30px;
@@ -51,12 +60,26 @@
 .bg-secondary a,
 .btn-secondary a,
 .bg-dark a,
-.btn-dark a,
-.bg-light a,
-.btn-light a{
+.btn-dark a {
     color: #fff;
 }
 
+/* Text Colors */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
 
 /* Text Sizes */
 .lead {
@@ -82,13 +105,26 @@
     text-align: center;
 }
 
-.card {
-    background-color: #fff;
-    color: #333;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-    padding: 20px;
-    margin: 10px;
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .flex {

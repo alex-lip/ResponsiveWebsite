@@ -5,6 +5,8 @@
     --secondary-color: #1C3FA8;
     --dark-color: #002240;
     --light-color: #f4f4f4;
+    --success-color: #5CB85C;
+    --error-color: #D9534F;
 }
 
 * {
@@ -40,6 +42,12 @@ p {
 
 img {
     width: 100%;
+}
+
+code, pre {
+    background: #333;
+    color: #fff;
+    padding: 10px;
 }
 /* Navbar */
 .navbar {
@@ -183,7 +191,7 @@ img {
 }
 
 /* Features */
-.features-head img {
+.features-head img, .docs-head img {
     width: 200px;
     justify-self: flex-end;
 }
@@ -201,13 +209,6 @@ img {
     padding: 30px;
 }
 
-/* Cli 
-    .cli .grid > *:first-child {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-}
-} */
-
 .features-main .grid > *:first-child {
     grid-column: 1 / span 3;
 }
@@ -216,6 +217,27 @@ img {
     grid-column: 1 / span 2;
 }
 
+/* Docs */
+
+.docs-main h3 {
+    margin: 20px 0;
+}
+
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+
+.docs-main nav li {  
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.docs-main a:hover {
+    font-weight: bold;
+}
 
 /* Footer */
 .footer .social a {
@@ -228,7 +250,9 @@ img {
     .showcase .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid {
+    .cloud .grid,
+    .features-main .grid,
+    .docs-main .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -250,6 +274,12 @@ img {
     .cli .grid > *:first-child {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
+    }
+
+    .features-head,
+    .features-sub-head,
+    .docs-head {
+        text-align: center;
     }
 }
 
